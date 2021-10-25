@@ -2076,7 +2076,7 @@
 				text-decoration: none;
 				display: inline-block;
 				margin: 0 0 1.6875em 0;
-				padding: 0.35em 0 0 3.5em;
+				padding: 0.5em 0 0 3.5em;
 				position: relative;
 				vertical-align: top;
 				width: 48%;
@@ -2085,7 +2085,7 @@
 				ul.feature-icons li:before {
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
-					font-family: "Font Awesome 5 Free";
+					/* font-family: "Font Awesome 5 Free"; */
 					font-style: normal;
 					text-transform: none !important;
 				}
@@ -2420,20 +2420,15 @@
 
 		.features article:first-child {
 			border-top: 0;
-			padding-top: 0;
+			/* padding-top: 0; */
 		}
 
-		.features article .image {
+		.features article img {
 			display: inline-block;
-			padding-right: 2.5em;
+			padding-right: 2em;
 			vertical-align: middle;
-			width: 48%;
+			width: 25%;
 		}
-
-			.features article .image img {
-				display: block;
-				width: 100%;
-			}
 
 		.features article .inner {
 			display: inline-block;
